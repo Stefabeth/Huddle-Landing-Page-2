@@ -1,0 +1,123 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styles */
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('../img/bg-desktop.svg');
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 3.5px;
+  line-height: 1.7;
+  margin-bottom: 2.2rem;
+}
+
+a, li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 100%;
+  /* margin-left: 61px;
+  margin-top: 3rem; */
+}
+
+.clr {
+  clear: both;
+}
+
+/* Header Section */
+.logo img {
+  width: 230px;
+}
+
+/* Main Section */
+#main {
+  margin-top: 5rem;
+}
+
+#main .main-left {
+  float: left;
+}
+
+#main .main-left img {
+  width: 100%;
+}
+
+#main .main-right {
+  float: right;
+  margin-top: 3rem;
+  width: 37%;
+}
+
+#main .main-right p {
+  margin-bottom: 2rem;
+}
+
+#main .main-right a {
+  background: white;
+  border-radius: 40px;
+  box-shadow: 2px 4px 10px black;
+  color: hsl(257, 40%, 49%);
+  padding: 10px 50px;
+}
+#main .main-right a:hover {
+  background: #333;
+  box-shadow: none;
+  color: white;
+}
+
+/* Footer Section */
+#social-media {
+  float: right;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#social-media a {
+  color: white;
+}
+
+#social-media a:hover {
+  color: #333;
+}
+
+.facebook, .twitter, .instagram {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover {
+  border: 1px solid black;
+}
+
+.twitter, .instagram {
+  padding: .50rem .60rem;
+}
+
+.facebook {
+  padding: .50rem .90rem;
+}
+
+.twitter {
+  margin: 0 0.5rem;
+}
+
+.link-content {
+  display: none;
+}
+
+/* Mobile Media Queries */

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+}
+
+.container {
+  background-image: url("../img/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+section {
+  overflow: hidden;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.content-left {
+  width: 50%;
+  float: left;
+}
+
+.content-right {
+  width: 50%;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
